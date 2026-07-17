@@ -83,8 +83,10 @@ article:hover{
         font-size: 35px;
     }
     img {
+        display: block;
         max-width: 220px;
-        padding: 20px;
+        maring: 0 auto;
+        
     }
     .comidas {
         display: grid;
