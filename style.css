@@ -1,0 +1,96 @@
+body {
+    background-color: #e0d4ad;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+h1, h2, h3{
+    font-family: "playfair Display", serif;
+}
+h1 {
+    margin-top: -2px;
+    font-size: 60px;
+}
+h2 {
+    color: aliceblue;
+    font-size: 40px;
+}
+
+h3 {
+    color: #6e4735;
+    font-size: xx-large;
+}
+
+p {
+
+    font-size: 20px;
+
+}
+.restaurante {
+    color: #6e4735;
+    font-size: 45px;
+}
+img {
+    max-width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.comidas {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+section {
+    background-color: #a36f57;
+    margin: 50px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+article {
+    background-color: #e7cf93;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 8px #dfc37c;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: x-large;
+    }
+
+    p {
+        font-size: 20px;
+    }
+    .restaurante {
+        font-size: 35px;
+    }
+    img {
+        max-width: 220px;
+    }
+    .comidas {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    section{
+        margin: 20px;
+    }
+}
