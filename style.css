@@ -68,6 +68,7 @@ article:hover{
     h1 {
         font-size: 40px;
     }
+
     h2 {
         font-size: 30px;
     }
@@ -79,22 +80,25 @@ article:hover{
     p {
         font-size: 20px;
     }
+
     .restaurante {
         font-size: 35px;
     }
+
     img {
         display: block;
         max-width: 220px;
-        maring: 0 auto;
-        padding: 0px;
-        
+        margin: 0 auto;
+        padding: 0;
     }
+
     .comidas {
-        display: grid;
         grid-template-columns: 1fr;
+        justify-items: center;
     }
-    
-    section{
+
+    section {
         margin: 20px;
     }
+}
 }
