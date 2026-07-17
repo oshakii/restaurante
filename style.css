@@ -84,6 +84,7 @@ article:hover{
     }
     img {
         max-width: 220px;
+        padding: 20px;
     }
     .comidas {
         display: grid;
